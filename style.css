@@ -1,0 +1,299 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+
+body{
+	 width: 100%;
+	 min-height: 100vh;
+	 background-color: rgb(243, 243, 243);
+	 margin: 0;
+	 padding: 0;
+
+}
+.facebook_warapper{
+	align-items: center;	
+	width: 100%;
+}
+.header{
+	background: #3b5998;
+	width: 100%;
+	height: 100px;
+	padding: 0 5%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.tela_principal{
+
+	width: 100%;
+	min-height: 34rem;
+	padding: 0 5%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+.imgPerfil{
+	padding-top: 70px;
+}
+.imgPerfil2{
+	border: 5px solid #FFFFFF;
+	height: 200px;
+	width: 200px;
+}
+
+.nomePerfil{
+	padding-top: 20px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 1.2rem;
+}
+.loginRecente{
+   padding: 1.5rem 0; 
+}
+.novoLogin{
+ padding: 1.5rem 0;
+
+}
+.inputNome2{
+padding: 5px;
+
+}
+.inputBt2{
+		height: 40px;
+		padding: 4px;
+		font-family: Helvetica;
+		border-radius: 4px;
+		border: solid 2px #E6E6E6;
+		font-size: 14px;
+		color: #848484;
+
+}
+.widthBt{
+	width: 200px; 
+}
+.widthB2{
+	width: 390px; 
+}
+.testo2{
+	padding-top: 10px;
+	font-family: Open Sans;
+	font-size: 20px;
+}
+.testo3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.testo4{
+	padding: 3px;
+	font-family: Open Sans;
+	font-size: 14px;
+	color: #3b5998;
+	
+
+}
+.dataNascimento{
+	display: flex;
+	justify-content: space-baseline;
+
+}
+.dataNasc1{
+	
+}
+/*.dataBox{
+	height: 30px;
+	width: 75px;
+	padding: 5px;
+	color: #000000;
+	font-size: 16px;
+	font-family: sans-serif;
+	margin: 5px;
+}*/
+form select.dataNasc{
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	font-size: 16px;
+	font-family: sans-serif;
+	height: 35px;
+	border: 1px solid #A4A4A4;
+	border-radius: 4px;
+	
+}
+
+ form .dataBox {
+ 	font-size: 16px;
+	font-family: sans-serif;
+		color: #000000;
+		margin: 5px;
+		font-weight: 22px;
+ }
+ .inputPassword2, .inputEmail2, .data{
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+.formNovoLogin{
+	padding-top: 35px;
+	font-family: Helvetica;
+}
+.logo{
+padding-top: 25px;
+color: white;
+font-size: 40px;
+font-family: Sans-serif;
+font-weight: bold;
+
+
+}
+.logo:hover{
+	cursor: pointer;
+}
+.form{
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+color: white;
+
+}
+.form input{
+	margin-left: 14px;
+}
+
+.inputLogin, .inputPassword{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.resetSenha{
+	color: #E3E0F2;
+	font-family: Helvetica;
+	margin-left: 12px;
+}
+.resetSenha:hover{
+	color: #0A0A2A;
+}
+
+.iputText{
+	height: 30px;
+	margin-top: 2px;
+	width: 150px;
+}
+.btEntrar{
+	height: 28px;
+	background-color: #4267b2;
+	border-color: #29487d;
+	width: 50px;
+	font-family: Helvetica;
+	display: flex;
+	align-self:center;
+	justify-content: center;
+	color: #FFFFFF;
+	border-width: 1px;
+	font-size: 14px;
+	font-weight: 700px;
+	cursor: pointer;
+}
+.btEntrar:hover{
+	color: #0A0A2A;
+	cursor: pointer;
+}
+
+.labelInput{
+    font-family: Helvetica;
+	font-size: 14px;
+	margin-left: 14px;
+}
+.genero{
+	padding: 10px;
+}
+.termoDeuso{
+	padding: 5px;
+	 font-family: Helvetica;
+	font-size: 14px;
+	font-size: 13px;
+	color: #210B61;
+}
+.criarcontaBt{
+	min-width: 194px;
+	padding: 7px 20px; 
+	text-align: center;
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	font-weight: bold;
+	border: 1px solid #00501C;
+	border-radius: 5px;
+	cursor: pointer;
+     color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.footer{
+	padding: 30px 17% 0;
+	height: 150px;
+	background-color: #FFFFFF;
+	color: #140452;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+}
+
+.list-inline > li {
+    display: inline;
+}
+
+.footer li a:hover{
+	text-decoration: underline;
+}
+
+
+hr{
+	border: 1px solid #E6E6E6;
+	margin-top: 10px;
+
+      background-color: #E6E6E6;
+      height: 1px;
+}
+.testo6{
+	padding-top: 10px;
+}
+.testo5{
+	padding-bottom: 5px;
+}
+
+.testo5:hover{
+	
+    cursor: pointer;
+    text-decoration: underline;
+}
+.testo6:hover{
+	
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+    .facebook_warapper {
+        width: 90%;
+    }
+
+    @media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    @media (max-width: 1024px) {
+    .header {
+        width: 100%;
+    }
